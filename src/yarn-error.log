@@ -1,0 +1,55 @@
+Arguments: 
+  /usr/local/Cellar/node/9.3.0_1/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/opt/m4/bin:/Users/jasonmandel/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  9.3.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "hypervision-browser",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "bankai start",
+      "build": "bankai build index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "choo": "^6.6.1",
+      "getusermedia": "^2.0.1",
+      "hypercore": "^6.12.0",
+      "media-recorder-stream": "^2.1.1",
+      "pump": "^1.0.2",
+      "random-access-memory": "^2.4.0",
+      "signalhubws": "^1.0.2",
+      "webm-cluster-stream": "^1.0.0",
+      "webrtc-swarm": "^2.9.0"
+    },
+    "devDependencies": {
+      "bankai": "^8.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/document-ready: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:123749:19)
+      at ontimeout (timers.js:466:11)
+      at tryOnTimeout (timers.js:304:5)
+      at Timer.listOnTimeout (timers.js:264:5)
